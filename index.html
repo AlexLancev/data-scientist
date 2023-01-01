@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Онлайн школа</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+
+            <div class="container">
+                <div class="header__inner">
+
+                    <a class="logo">
+                        <img src="images/svg/logo.svg" alt="Логотип компании data.rar">
+                    </a>
+
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#course-program" class="nav__link">Программа курса</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#advantages" class="nav__link">Преимущества</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#price" class="nav__link">Цена</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#reviews" class="nav__link">Отзывы</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contacts" class="nav__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <button class="burger" aria-label="Меню открыть/закрыть">
+                        <span class="burger-line"></span>
+                    </button>
+
+                    <nav class="burger-nav">
+                        <ul class="burger-nav__list">
+                            <li class="burger-nav__item">
+                                <a href="#course-program" class="burger-nav__link">Программа курса</a>
+                            </li>
+                            <li class="burger-nav__item">
+                                <a href="#advantages" class="burger-nav__link">Преимущества</a>
+                            </li>
+                            <li class="burger-nav__item">
+                                <a href="#price" class="burger-nav__link">Цена</a>
+                            </li>
+                            <li class="burger-nav__item">
+                                <a href="#reviews" class="burger-nav__link">Отзывы</a>
+                            </li>
+                            <li class="burger-nav__item">
+                                <a href="#contacts" class="burger-nav__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+
+            <div class="preview">
+                <div class="container">
+                    <div class="preview__inner">
+                        <h1>
+                            Как за&nbsp;12&nbsp;часов стать начинающим data scientist и&nbsp;научиться зарабатывать
+                            на&nbsp;своих навыках?
+                        </h1>
+                        <p class="preview__subtitle">
+                            И&nbsp;получить высокооплачиваемую работу в&nbsp;самой быстрорастущей отрасли в&nbsp;мире
+                        </p>
+                        <ul class="preview__list">
+                            <li class="preview__item">
+                                <img src="images/head-1.png" alt="">
+                                <p>Начните зарабатывать на&nbsp;следующий день после курса</p>
+                            </li>
+                            <li class="preview__item">
+                                <img src="images/head-2.png" alt="">
+                                <p>Поможем найти работу в&nbsp;офисе и&nbsp;на&nbsp;фрилансе</p>
+                            </li>
+                            <li class="preview__item">
+                                <img src="images/head-3.png" alt="">
+                                <p>Сэкономьте своё время&nbsp;&mdash; за&nbsp;день получите то&nbsp;же, что
+                                    на&nbsp;трёхмесячном курсе обучения</p>
+                            </li>
+                        </ul>
+
+                        <strong class="preview__time">
+                            Начало курса: 11&nbsp;мая, 9:00&nbsp;&mdash; 21:00
+                        </strong>
+
+                        <button data-href="popup-1" class="preview__btn btn popup-link">
+                            Забронировать
+                        </button>
+
+                        <!-- modal-start -->
+                        <div id="popup-1" class="popup" role="alert">
+                            <div class="popup__body">
+                                <div class="popup__content">
+                                    <button type="button" class="popup__close close-popup"
+                                        aria-label="закрыть модальное окно"></button>
+
+                                    <form class="popup__form" id="id-form-1" action="#" method="post">
+                                        <fieldset class="popup__fdst">
+                                            <legend class="popup__title">
+                                                Оставьте заявку
+                                            </legend>
+                                            <input class="popup__input" type="text" name="name" value=""
+                                                placeholder="Ваше имя" required>
+                                            <input class="popup__input" type="text" name="phone" value=""
+                                                placeholder="Ваш телефон" required>
+                                            <button class="popup__btn btn" type="submit">
+                                                Отправить
+                                            </button>
+                                        </fieldset>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- modal-end -->
+
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <main class="main">
+
+            <div class="container">
+
+                <div class="scills">
+                    <h2 class="scills__title">
+                        Как Вы считаете, сможете ли Вы стать data scientist за 12 часов, освоив эти 6 навыков?
+                    </h2>
+                    <ul class="scills__list">
+
+                        <li class="scills__item">
+                            <img class="scills__img" src="images/scills/scills-1.svg" alt="">
+                            <p class="scills__text">Обработка данных и извлечение признаков</p>
+                        </li>
+
+                        <li class="scills__item">
+                            <img class="scills__img" src="images/scills/scills-2.svg" alt="">
+                            <p class="scills__text">Классификация</p>
+                        </li>
+
+                        <li class="scills__item">
+                            <img class="scills__img" src="images/scills/scills-3.svg" alt="">
+                            <p class="scills__text">Кластеризация</p>
+                        </li>
+
+                        <li class="scills__item">
+                            <img class="scills__img" src="images/scills/scills-4.svg" alt="">
+                            <p class="scills__text">Построение регрессионных моделей</p>
+                        </li>
+
+                        <li class="scills__item">
+                            <img class="scills__img" src="images/scills/scills-5.svg" alt="">
+                            <p class="scills__text">Ранжирование</p>
+                        </li>
+
+                        <li class="scills__item">
+                            <img class="scills__img" src="images/scills/scills-6.svg" alt="">
+                            <p class="scills__text">Сокращение размерности</p>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="vacancies">
+                <h2 class="vacancies__title">
+                    Вакансии data scientist
+                </h2>
+                <div class="container">
+                    <div class="vacancies__slider slider">
+
+                        <div class="vacancies__item">
+                            <p class="vacancies__profession">Data Scientist</p>
+                            <b class="vacancies__sum">до 400 000 руб.</b>
+                            <img class="vacancies__img" src="images/vacancies/vacancies-1.png" alt="">
+                        </div>
+
+                        <div class="vacancies__item">
+                            <p class="vacancies__profession">Data scientist /Project manager</p>
+                            <b class="vacancies__sum">до 400 000 руб.</b>
+                            <img class="vacancies__img" src="images/vacancies/vacancies-2.png" alt="">
+                        </div>
+
+                        <div class="vacancies__item">
+                            <p class="vacancies__profession">Руководитель направления</p>
+                            <b class="vacancies__sum">от 200 000 руб.</b>
+                            <img class="vacancies__img" src="images/vacancies/vacancies-3.png" alt="">
+                        </div>
+
+                        <div class="vacancies__item">
+                            <p class="vacancies__profession">Специалист Big data</p>
+                            <b class="vacancies__sum">от 300 000 руб.</b>
+                            <img class="vacancies__img" src="images/vacancies/vacancies-4.png" alt="">
+                        </div>
+
+                        <div class="vacancies__item">
+                            <p class="vacancies__profession">Data Scientist</p>
+                            <b class="vacancies__sum">от 300 000 руб</b>
+                            <img class="vacancies__img" src="images/vacancies/vacancies-5.png" alt="">
+                        </div>
+
+                        <div class="vacancies__item">
+                            <p class="vacancies__profession">Data scientist /Project manager</p>
+                            <b class="vacancies__sum">до 400 000 руб.</b>
+                            <img class="vacancies__img" src="images/vacancies/vacancies-6.png" alt="">
+                        </div>
+
+                    </div>
+                    <button data-href="popup-2" class="vacancies__btn btn popup-link">Освоить эти 6 навыков</button>
+
+                    <!-- modal-start -->
+                    <div id="popup-2" class="popup" role="alert">
+                        <div class="popup__body">
+                            <div class="popup__content">
+                                <button type="button" class="popup__close close-popup"
+                                    aria-label="закрыть модальное окно"></button>
+
+                                <form class="popup__form" id="id-form-2" action="#" method="post">
+                                    <fieldset class="popup__fdst">
+                                        <legend class="popup__title">
+                                            Оставьте! заявку
+                                        </legend>
+                                        <input class="popup__input" type="text" name="name" value=""
+                                            placeholder="Ваше имя" required>
+                                        <input class="popup__input" type="text" name="phone" value=""
+                                            placeholder="Ваш телефон" required>
+                                        <button class="popup__btn btn" type="submit">
+                                            Отправить
+                                        </button>
+                                    </fieldset>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- modal-end -->
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="intensive-training">
+                    <div class="intensive-training__top">
+                        <h2 class="intensive-training__title">
+                            В этом году мы разработали систему интенсивного обучения, которая позволит вам освоить все 6
+                            навыков за 12 часов.
+                        </h2>
+                        <div class="intensive-training__text">
+                            Плохая новость в том, что обычные и онлайн курсы по data science растянуты на много недель,
+                            а их стоимость начинается от 30 тысяч рублей
+                        </div>
+                    </div>
+                    <div class="intensive-training__images">
+                        <img src="images/intensive-training/intensive-training-1.png" alt="Раскрытая тетрадь в клеточку"
+                            class="intensive-training__img">
+                        <img src="images/intensive-training/intensive-training-2.png" alt="Монитор 2000-х годов"
+                            class="intensive-training__img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="benefits">
+                <div class="benefits__inner">
+
+                    <div class="benefits__top">
+                        <h2 class="benefits__title">
+                            Поэтому мы решили сделать обучение удобным, доступным и выгодным для каждого
+                            и упаковали знания в интенсивный курс, который позволит Вам:
+                        </h2>
+                        <div class="benefits__row">
+                            <img src="images/benefits/benefits-box.png" alt="" class="benefits__top-img">
+                            <ul class="benefits__list">
+                                <li class="benefits__item">
+                                    <img src="images/benefits/benefits-1.svg" alt="" class="benefits__img-decor">
+                                    <b class="benefits__text">
+                                        Потратить минимум денег и времени
+                                    </b>
+                                </li>
+                                <li class="benefits__item">
+                                    <img src="images/benefits/benefits-2.svg" alt="" class="benefits__img-decor">
+                                    <b class="benefits__text">
+                                        Научиться искать работу под новые навыки
+                                    </b>
+                                </li>
+                                <li class="benefits__item">
+                                    <img src="images/benefits/benefits-3.svg" alt="" class="benefits__img-decor">
+                                    <b class="benefits__text">
+                                        Начать зарабатывать на следующий день после курса
+                                    </b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="benefits__middle">
+                        <h2 class="benefits__title">
+                            На нашем курсе вы освоите все необходимые навыки за 12 часов благодаря
+                        </h2>
+                        <img src="images/benefits/benefits-mob.png" alt="" class="benefits__middle-img">
+                        <ul class="benefits__scills-list">
+                            <li class="benefits__scills-item">
+                                <h3 class="benefits__scills-head">
+                                    Адаптации для новичков
+                                </h3>
+                                <p class="benefits__scills-text">
+                                    Все курсы адаптированы под новичков, не имеющих опыта программирования
+                                </p>
+                            </li>
+                            <li class="benefits__scills-item">
+                                <h3 class="benefits__scills-head">
+                                    Ориентации на практику
+                                </h3>
+                                <p class="benefits__scills-text">
+                                    По окончании курса студенты станут самостоятельными разработчиками
+                                </p>
+                            </li>
+                            <li class="benefits__scills-item">
+                                <h3 class="benefits__scills-head">
+                                    Интенсивному обучению
+                                </h3>
+                                <p class="benefits__scills-text">
+                                    Самый необходимый материал в максимально сжатые сроки
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="benefits__bottom">
+                        <img src="images/benefits/benefits-sertif.png" alt="" class="benefits__bottom-img">
+                        <div class="benefits__info">
+                            <h3 class="benefits__info-head">
+                                И получите сертификат
+                            </h3>
+                            <p class="benefits__info-text">
+                                Добавьте его к своему резюме и претендуйте на более престижную должность
+                            </p>
+                            <button data-href="popup-3" class="benefits__btn btn popup-link">
+                                Забронировать
+                            </button>
+
+                            <!-- modal-start -->
+                            <div id="popup-3" class="popup" role="alert">
+                                <div class="popup__body">
+                                    <div class="popup__content">
+                                        <button type="button" class="popup__close close-popup"
+                                            aria-label="закрыть модальное окно"></button>
+
+                                        <form class="popup__form" id="id-form-3" action="#" method="post">
+                                            <fieldset class="popup__fdst">
+                                                <legend class="popup__title">
+                                                    Оставьте заявку
+                                                </legend>
+                                                <input class="popup__input" type="text" name="Имя" value=""
+                                                    placeholder="Ваше имя" required>
+                                                <input class="popup__input" type="text" name="Телефон" value=""
+                                                    placeholder="Ваш телефон" required>
+                                                <button type="submit" class="popup__btn btn">
+                                                    Отправить
+                                                </button>
+                                            </fieldset>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- modal-end -->
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="advantages" class="comparison container">
+                <h2 class="comparison__title">
+                    <img src="images/comparison/comparison-title.png" alt="" class="comparison__title-img">
+                </h2>
+                <div class="comparison__inner">
+
+                    <div class="comparison__item comparison-minus">
+                        <img src="images/comparison/comparison-minus-1.png" alt=""
+                            class="comparison-minus__img comparison-img">
+                        <p class="comparison__text">Собирать знания в&nbsp;течение года</p>
+                    </div>
+
+                    <div class="comparison__item comparison-plus">
+                        <img src="images/comparison/comparison-plus-1.png" alt=""
+                            class="comparison-plus__img comparison-img">
+                        <p class="comparison-plus__text">Сфокусировать усилия</p>
+                    </div>
+
+                    <div class="comparison__item comparison-minus">
+                        <img src="images/comparison/comparison-minus-2.png" alt=""
+                            class="comparison-minus__img comparison-img">
+                        <p class="comparison__text">Много теории и&nbsp;сухих теорем</p>
+                    </div>
+
+                    <div class="comparison__item comparison-plus">
+                        <img src="images/comparison/comparison-plus-2.png" alt=""
+                            class="comparison-plus__img comparison-img">
+                        <p class="comparison-plus__text">Берём из&nbsp;теории только самое нужное и&nbsp;переходим
+                            к&nbsp;практике</p>
+                    </div>
+
+                    <div class="comparison__item comparison-minus">
+                        <img src="images/comparison/comparison-minus-3.png" alt=""
+                            class="comparison-minus__img comparison-img">
+                        <p class="comparison__text">Время, которые вы&nbsp;потратите только на&nbsp;дорогу&nbsp;&mdash;
+                            12&nbsp;часов</p>
+                    </div>
+
+                    <div class="comparison__item comparison-plus">
+                        <img src="images/comparison/comparison-plus-3.png" alt=""
+                            class="comparison-plus__img comparison-img">
+                        <p class="comparison-plus__text">Время, которое вы&nbsp;потратите на&nbsp;всё
+                            обучение&nbsp;&mdash; 12&nbsp;часов</p>
+                    </div>
+
+                    <div class="comparison__item comparison-minus">
+                        <img src="images/comparison/comparison-minus-4.png" alt=""
+                            class="comparison-minus__img comparison-img">
+                        <p class="comparison__text">Каждый день занятий&nbsp;Вы оплачиваете аренду помещения
+                            и&nbsp;оборудования, а&nbsp;также платите за&nbsp;время, которое преподаватели провели
+                            в&nbsp;дороге</p>
+                    </div>
+
+                    <div class="comparison__item comparison-plus">
+                        <img src="images/comparison/comparison-plus-4.png" alt=""
+                            class="comparison-plus__img comparison-img">
+                        <p class="comparison-plus__text">Проведение курса в&nbsp;один день позволяет снизить издержки
+                            для нас и&nbsp;цену для Вас</p>
+                    </div>
+
+                    <div class="comparison__item comparison-minus">
+                        <img src="images/comparison/comparison-plus-5.png" alt=""
+                            class="comparison-minus__img comparison-img">
+                        <p class="comparison__text">Вы&nbsp;сможете начать зарабатывать не&nbsp;раньше окончания курса,
+                            минимум через месяц</p>
+                    </div>
+
+                    <div class="comparison__item comparison-plus">
+                        <img src="images/comparison/comparison-plus-5.png" alt=""
+                            class="comparison-plus__img comparison-img">
+                        <p class="comparison-plus__text">Вы&nbsp;начнёте зарабатывать и&nbsp;окупать стоимость обучения
+                            уже на&nbsp;следующий день. Мы&nbsp;научим Вас искать работу и&nbsp;подработку</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div id="price" class="prices">
+                    <div class="prices__sum prices-ordinary">
+                        <p class="prices__ordinary">
+                            ОБЫЧНЫЙ КУРС<br><b class="prices__ordinary-number">46 000</b> руб.
+                        </p>
+                    </div>
+                    <div class="prices__sum prices-our">
+                        <p class="prices__our">
+                            КУРС Data.rar<br><b class="prices__our-number">14 990</b> руб.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <form action="#" method="post" class="form course-start">
+                    <h2 class="course-start__title">
+                        Начало курса: 11 мая, 9:00 – 21:00
+                    </h2>
+                    <fieldset class="form__fdst">
+                        <legend class="form__legend">
+                            Подайте заявку сейчас!
+                        </legend>
+                        <input class="form__input course-start__input" type="text" name="Имя" placeholder="Имя"
+                            value="" required>
+                        <input class="form__input" type="text" name="Телефон" placeholder="Телефон" value="" required>
+                        <button class="form__btn btn" type="submit">Забронировать</button>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="stock-container">
+                <div class="stock">
+                    <div class="stock__inner">
+
+                        <div class="stock__info">
+                            <div class="stock__info-inner">
+                                <img class="stock__img" src="images/stock/stock-1.svg" alt="">
+                                <p>
+                                    <b class="stock__number stock__ten">-10%</b>
+                                    <b class="stock__text">Приведи друга — оба получите 10% скидку!</b>
+                                </p>
+                            </div>
+                            <button data-href="popup-stock-1" class="stock__btn btn popup-link">Пригласить друга</button>
+                             <!-- modal-start -->
+                            <div id="popup-stock-1" class="popup" role="alert">
+                                <div class="popup__body">
+                                    <div class="popup__content">
+                                        <button type="button" class="popup__close close-popup"
+                                            aria-label="закрыть модальное окно"></button>
+
+                                        <form class="popup__form" id="id-form-2" action="#" method="post">
+                                            <fieldset class="popup__fdst">
+                                                <legend class="popup__title">
+                                                    Оставьте заявку
+                                                </legend>
+                                                <input class="popup__input" type="text" name="Имя" value=""
+                                                    placeholder="Ваше имя" required>
+                                                <input class="popup__input" type="text" name="Телефон" value=""
+                                                    placeholder="Ваш телефон" required>
+                                                <button class="popup__btn btn" type="submit">
+                                                    Отправить
+                                                </button>
+                                            </fieldset>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- modal-end -->
+                        </div>
+
+                        <div class="stock__info">
+                            <div class="stock__info-inner">
+                                <img class="stock__img" src="images/stock/stock-2.svg" alt="">
+                                <p>
+                                    <b class="stock__number stock__five">-5%</b>
+                                    <b class="stock__text">Сделай репост — получи 5% скидку!</b>
+                                </p>
+                            </div>
+                            <button data-href="popup-stock-2" class="stock__btn btn popup-link">Пригласить друга</button>
+                             <!-- modal-start -->
+                            <div id="popup-stock-2" class="popup" role="alert">
+                                <div class="popup__body">
+                                    <div class="popup__content">
+                                        <button type="button" class="popup__close close-popup"
+                                            aria-label="закрыть модальное окно"></button>
+
+                                        <form class="popup__form" id="id-form-2" action="#" method="post">
+                                            <fieldset class="popup__fdst">
+                                                <legend class="popup__title">
+                                                    Оставьте заявку
+                                                </legend>
+                                                <input class="popup__input" type="text" name="Имя" value=""
+                                                    placeholder="Ваше имя" required>
+                                                <input class="popup__input" type="text" name="Телефон" value=""
+                                                    placeholder="Ваш телефон" required>
+                                                <button class="popup__btn btn">
+                                                    Отправить
+                                                </button>
+                                            </fieldset>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- modal-end -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="structure" id="course-program">
+                <div class="container">
+
+                    <div class="structure__header">
+                        <h2 class="structure__title">
+                            Структура курса
+                        </h2>
+                        <p class="structure__header-text">
+                            Программа курса кажется сложной, но мы разделили ее на 7 простых блоков.
+                        </p>
+                    </div>
+
+                    <ul class="structure__list">
+
+                        <li class="structure__item">
+                            <div class="structure__img-box">
+                                <img src="images/structure/structure-1.svg" alt="" class="structure__img">
+                            </div>
+                            <p class="structure__subsequence">
+                                Первичный анализ данных
+                            </p>
+                            <img src="images/structure/structure-circle-1.svg" alt="" class="structure__circle">
+                        </li>
+
+                        <li class="structure__item">
+                            <div class="structure__img-box">
+                                <img src="images/structure/structure-2.svg" alt="" class="structure__img">
+                            </div>
+                            <p class="structure__subsequence">
+                                Процесс машинного обучения
+                            </p>
+                            <img src="images/structure/structure-circle-2.svg" alt="" class="structure__circle">
+                        </li>
+
+                        <li class="structure__item">
+                            <div class="structure__img-box">
+                                <img src="images/structure/structure-3.svg" alt="" class="structure__img">
+                            </div>
+                            <p class="structure__subsequence">
+                                Классификация
+                            </p>
+                            <img src="images/structure/structure-circle-3.svg" alt="" class="structure__circle">
+                        </li>
+
+                        <li class="structure__item">
+                            <div class="structure__img-box">
+                                <img src="images/structure/structure-4.svg" alt="" class="structure__img">
+                            </div>
+                            <p class="structure__subsequence">
+                                Ансамбли
+                            </p>
+                            <img src="images/structure/structure-circle-4.svg" alt="" class="structure__circle">
+                        </li>
+
+                        <li class="structure__item">
+                            <div class="structure__img-box">
+                                <img src="images/structure/structure-5.svg" alt="" class="structure__img">
+                            </div>
+
+                            <p class="structure__subsequence">
+                                Регрессия
+                            </p>
+                            <img src="images/structure/structure-circle-5.svg" alt="" class="structure__circle">
+                        </li>
+
+                        <li class="structure__item">
+                            <div class="structure__img-box">
+                                <img src="images/structure/structure-6.svg" alt="" class="structure__img">
+                            </div>
+                            <p class="structure__subsequence">
+                                Поиск структуры в данных
+                            </p>
+                            <img src="images/structure/structure-circle-6.svg" alt="" class="structure__circle">
+                        </li>
+
+                        <li class="structure__item">
+                            <div class="structure__img-box">
+                                <img src="images/structure/structure-7.svg" alt="" class="structure__img">
+                            </div>
+                            <p class="structure__subsequence">
+                                Ещё ближе к земле
+                            </p>
+                            <img src="images/structure/structure-circle-7.svg" alt="" class="structure__circle">
+                        </li>
+
+                        <li class="structure__item structure__item--finish finish">
+                            <b class="finish__title">Финиш</b>
+                            <p class="structure__subsequence structure__subsequence--finish">
+                                Вы становитесь специалистом и получаете от нас сертификат!
+                            </p>
+                            <img src="images/structure/structure-finish.svg" alt="" class="structure__finish-bg">
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="company teachers">
+
+                <div class="company__inner">
+                    <div class="container">
+                        <h2 class="company__title">
+                            О компании
+                        </h2>
+                        <h3 class="company__subtitle">
+                            Мы — команда, создающая новый формат курсов
+                        </h3>
+                        <p class="company__text">
+                            Мы&nbsp;упаковываем сложный материал в&nbsp;12-ти часовые интенсивы. Специализируемся
+                            на&nbsp;новых профессиях эры цифровизации и&nbsp;искусственного интеллекта.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="company__teachers">
+                    <div class="container">
+
+                        <h3 class="teachers__subtitle">
+                            Наши преподаватели
+                        </h3>
+
+                        <ul class="teachers__list">
+                            <li class="teachers__item">
+                                <div class="teachers__img"
+                                    style="background-image: url(./images/teachers/teachers-bg-1.png);">
+                                    <h3 class="teachers__title">
+                                        <b class="teachers__name">Булат</b> Шканов
+                                    </h3>
+                                </div>
+                                <ul class="teachers__list-info">
+                                    <li class="teachers__item-info">
+                                        Более 4 лет опыта в машинном обучении
+                                    </li>
+                                    <li class="teachers__item-info">
+                                        Работает в Московском кредитном банке
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="teachers__item">
+                                <div class="teachers__img"
+                                    style="background-image: url(./images/teachers/teachers-bg-2.png);">
+                                    <h3 class="teachers__title">
+                                        <b class="teachers__name">Александр</b> Глотов
+                                    </h3>
+                                </div>
+                                <ul class="teachers__list-info">
+                                    <li class="teachers__item-info">
+                                        6 лет работы с фрилансерами
+                                    </li>
+                                    <li class="teachers__item-info">
+                                        Более 3-х лет работы в консалтинге и аналитике
+                                    </li>
+                                    <li class="teachers__item-info">
+                                        Владелец компании ....ru
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-container">
+                <form action="#" method="post" class="form form-callback">
+                    <fieldset class="form__fdst form-callback__fdst">
+                        <legend class="form__legend">
+                            Оставьте заявку и мы вам перезвоним
+                        </legend>
+                        <input class="form__input form-callback__input" type="text" name="Имя" placeholder="Имя"
+                            value="" required>
+                        <input class="form__input" type="text" name="Телефон" placeholder="Телефон" value="" required>
+                        <button class="form__btn btn" type="submit">Отправить</button>
+                    </fieldset>
+                    <ul class="social form-callback__social">
+                        <li class="social__item">
+                            <a href="https://www.facebook.com/" target="_blank" class="social__link">
+                                <img class="social__img" src="images/social/social-fb.svg" alt="Фейсбук">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://www.twitter.com/" target="_blank" class="social__link">
+                                <img class="social__img" src="images/social/social-tw.svg" alt="Твиттер">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://vk.com/" target="_blank" class="social__link">
+                                <img class="social__img" src="images/social/social-vk.svg" alt="Вконтакте">
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+
+            <div class="reviews-container">
+                <div id="reviews" class="reviews">
+                    <h2 class="reviews__title">
+                        Отзывы
+                    </h2>
+                    <div class="reviews__slider slider">
+                        <div class="reviews__item">
+                            <img class="reviews__img" src="images/reviews/previews-person-1.png" alt="">
+                            <p class="reviews__text">
+                                Сына отправил в эту школу для изучения английского языка. В первый же день, он пришел с
+                                улыбкой на лице и сказал: “Я хочу там всегда учиться”. Мы с женой обрадовались, так как
+                                сын увлекся иностранным языком. Сейчас свободно общается.
+                            </p>
+                            <b class="reviews__name">
+                                Даниил Козловский
+                            </b>
+                        </div>
+                        <div class="reviews__item">
+                            <img class="reviews__img" src="images/reviews/previews-person-1.png" alt="">
+                            <p class="reviews__text">
+                                Взял тариф “Любитель”. Полностью прошел курс. Получил огромный опыт. К каждому студенту
+                                был персональный подход. Мог удаленно сдавать работы, просматривать лекции, если вдруг
+                                не пришел на занятие. Потрясающая школа!
+                            </p>
+                            <b class="reviews__name">
+                                Евгений Иванов
+                            </b>
+                        </div>
+                        <div class="reviews__item">
+                            <img class="reviews__img" src="images/reviews/previews-person-1.png" alt="">
+                            <p class="reviews__text">
+                                В школе изучала английский. Неожиданно для себя решила изучить немецкийю. Подошел курс
+                                “новичок”, в котором было все для того, чтобы за месяц изучить этот язык базово. Буду
+                                брать еще курс для того, чтобы свободно общаться на немецком. Спасибо этой школе!
+                            </p>
+                            <b class="reviews__name">
+                                Александра Кирьянова
+                            </b>
+                        </div>
+                        <div class="reviews__item">
+                            <img class="reviews__img" src="images/reviews/previews-person-1.png" alt="">
+                            <p class="reviews__text">
+                                Изучал и в школе и в универе английский язык, так получилось, что нужно было подтянуть,
+                                но из всех тарифных планов, мне ничто не подошло, тогда я воспользовался калькулятором и
+                                создал свой тариф, в котором внес те услуги, которые мне нужны.
+                            </p>
+                            <b class="reviews__name">
+                                Руслан Князьев
+                            </b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contacts" class="contacts">
+                <div class="contacts-container">
+                    <div class="contacts__inner">
+
+                        <div class="contacts__map">
+                            <a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                                style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a>
+                            <a href="https://yandex.ru/maps/213/moscow/house/sverchkov_pereulok_10/Z04YcANgSEUFQFtvfXt3cXlhZA==/?ll=37.640102%2C55.760520&utm_medium=mapframe&utm_source=maps&z=16.25"
+                                style="color:#eee;font-size:12px;position:absolute;top:14px;">Сверчков переулок, 10 —
+                                Яндекс Карты</a>
+                            <iframe class="contacts__iframe" src="https://yandex.ru/map-widget/v1/-/CCUfBJhL0D"
+                                width="100%" height="100%" style="display: block" frameborder="1" allowfullscreen="true"
+                                style="position:relative;"></iframe>
+                        </div>
+
+                        <div class="contacts__info">
+                            <h3 class="contacts__title">
+                                Контакты
+                            </h3>
+                            <ul class="contacts__list">
+                                <li class="contacts__item">
+                                    <img src="images/contacts/contacts-1.svg" alt="" class="contacts__info-img">
+                                    <a href="tel:+74951234567" class="contacts__link contacts__phone">
+                                        +7 (495) 123-45-67
+                                    </a><br>
+                                    <a href="tel:88001234567" class="contacts__link contacts__phone">
+                                        8 (800) 123-45-67
+                                    </a><br>
+                                </li>
+                                <li class="contacts__item">
+                                    <img src="images/contacts/contacts-2.svg" alt="" class="contacts__info-img">
+                                    <a href="mailto:info@address.com" class="contacts__link contacts__email">
+                                        info@address.com
+                                    </a><br>
+                                    <a href="mailto:support@address.com" class="contacts__link contacts__email">
+                                        support@address.com
+                                    </a><br>
+                                </li>
+                                <li class="contacts__item">
+                                    <img src="images/contacts/contacts-3.svg" alt="" class="contacts__info-img">
+                                    <address class="contacts__address">
+                                        Москва, Сверчков пер., д. 10, офис 105
+                                    </address>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+
+            <div class="footer-container">
+                <div class="footer__header">
+                    <a class="logo footer__logo">
+                        <img src="images/svg/logo.svg" alt="Логотип компании data.rar">
+                    </a>
+                    <p class="footer__header-text">
+                        Остались вопросы? Мы всегда на связи:
+                    </p>
+                </div>
+
+                <div class="footer__inner">
+
+                    <div class="footer__feedback">
+                        <ul class="social footer__social">
+                            <li class="social__item">
+                                <a href="https://web.telegram.org/" target="_blank" class="social__link">
+                                    <img class="social__img" src="images/social/social-tm.svg" alt="Телеграм">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.facebook.com/" target="_blank" class="social__link">
+                                    <img class="social__img" src="images/social/social-f-fb.svg" alt="Фейсбук">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://vk.com/" target="_blank" class="social__link">
+                                    <img class="social__img" src="images/social/social-f-vk.svg" alt="Вконтакте">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://web.whatsapp.com/" target="_blank" class="social__link">
+                                    <img class="social__img" src="images/social/social-wt.svg" alt="Ватсап">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.viber.com/" target="_blank" class="social__link">
+                                    <img class="social__img" src="images/social/social-vb.svg" alt="Вайбер">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                                    <img class="social__img" src="images/social/social-inst.svg" alt="Инстраграм">
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="footer__consumer-information">
+                            <a href="policy.html" class="footer__policy policy">
+                                Политика конфендиальности
+                            </a>
+                            <span class="footer__copy copy">
+                                &copy;&nbsp;Data.rar 2019
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="footer__menu">
+                        <button data-href="popup-4" class="footer__btn btn popup-link">заказать звонок</button>
+
+                        <!-- modal-start -->
+                        <div id="popup-4" class="popup" role="alert">
+                            <div class="popup__body">
+                                <div class="popup__content">
+                                    <button type="button" class="popup__close close-popup"
+                                        aria-label="закрыть модальное окно"></button>
+
+                                    <form class="popup__form" id="id-form-4" action="#" method="post">
+                                        <fieldset class="popup__fdst">
+                                            <legend class="popup__title">
+                                                Оставьте заявку
+                                            </legend>
+                                            <input class="popup__input" type="text" name="Имя" value=""
+                                                placeholder="Ваше имя" required>
+                                            <input class="popup__input" type="text" name="Телефон" value=""
+                                                placeholder="Ваш телефон" required>
+                                            <button class="popup__btn btn" type="submit">
+                                                Отправить
+                                            </button>
+                                        </fieldset>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- modal-end -->
+
+                        <nav class="nav footer__nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#course-program" class="nav__link">Программа курса</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#advantages" class="nav__link">Преимущества</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#price" class="nav__link">Цена</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#about-company" class="nav__link">О компании</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#reviews" class="nav__link">Отзывы</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#contacts" class="nav__link">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/form-valid.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
