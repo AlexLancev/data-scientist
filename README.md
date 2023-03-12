@@ -1,4 +1,4 @@
-# [Лендинг](https://alexlancev.github.io/mafia/index.html) для курса data scientist
+# [Лендинг](https://alexlancev.github.io/data-scientist/) для курса data scientist
 
 - Есть адаптив до 320px
 - В написаний разметки использовалась методология БЭМ
